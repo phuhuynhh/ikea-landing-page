@@ -1,0 +1,28 @@
+{
+  "name": "ikea-landing-page",
+  "version": "1.0.0",
+  "description": "This project named \"IEAK Landing Page Clone\". ## Getting Started **Page to make** :  - Homepage      : https://www.ikea.com/  - About Us      : https://about.ikea.com/en/about-us - Shop          : https://www.ikea.com/gateway/catalog/     - Detail (sample)   : https://www.ikea.com/gateway/catalog/stories/a-perfect-fit-for-a-family-of-four/ - IKEA today    : https://ikea.today/ - IKEA museum   : https://ikeamuseum.com/en/startpage/     - Story             : https://ikeamuseum.com/en/exhibitions/the-story-of-ikea/     - Shop              : https://ikeamuseum.com/en/shop/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "gulp build && gulp watch",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuhuynh12/ikea-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phuhuynh12/ikea-landing-page/issues"
+  },
+  "homepage": "https://github.com/phuhuynh12/ikea-landing-page#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.2.2",
+    "gulp-live-server": "0.0.31",
+    "gulp-sass": "^4.1.0"
+  }
+}
