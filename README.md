@@ -10,3 +10,17 @@ This project named "IEAK Landing Page Clone".
 - IKEA museum   (museum.html)       : https://ikeamuseum.com/en/startpage/
     - Story     (museumStory.html)      : https://ikeamuseum.com/en/exhibitions/the-story-of-ikea/
     - Shop      (museumShop.html)       : https://ikeamuseum.com/en/shop/
+
+## How To Use
+- **Install dependence** : 
+```sh
+npm install
+```
+- **Build** : 
+```sh
+npm run build
+```
+- **Development** : 
+```sh
+npm start
+```
