@@ -35,94 +35,59 @@
 
 <body>
     @@include('../layouts/header.html')
-    <main>
-        <section class="container svelte-1e7sfpr">
-            <div class="main svelte-1e7sfpr">
-                <div class="start-screen dark-image-overlay__holder "><img
-                        alt="Well-organised open wardrobe and clothing rack"
-                        srcset="images/home/start-screen.jpg?f=g 2000w, images/home/start-screen.jpg?f=sg 1600w, images/home/start-screen.jpg?f=xxxl 1400w, images/home/start-screen.jpg?f=xxl 1100w, images/home/start-screen.jpg?f=xl 900w, images/home/start-screen.jpg?f=l 750w, images/home/start-screen.jpg?f=m 700w, images/home/start-screen.jpg?f=s 600w, images/home/start-screen.jpg?f=xs 500w, images/home/start-screen.jpg?f=xxs 400w, images/home/start-screen.jpg?f=xxxs 300w, images/home/start-screen.jpg?f=u 160w, images/home/start-screen.jpg?f=xu 80w"
-                        src="images/home/start-screen.jpg?f=s"
-                        sizes="(min-width: 1025px) calc((100vw / 1.5) - 2rem - 2rem), 100vw"
-                        class="bottom svelte-2xl2ej">
-
-                    <span class="logo-holder  visible">
-                        <a href="https://www.ikea.com" class="svelte-1xg26gi start-page ready">
-                            <span class="sr-only svelte-1xg26gi">Go to
-                                IKEA.com</span>
-                            <img src="images/ikea_logo.svg">
-                        </a>
-                    </span>
-                    <div class="start-screen-nav ">
-                        <div class="local-site-hint ">
-                            <div class="svelte-rkbks0">
-                                <h2 id="to-local-site" class="svelte-rkbks0">Go shopping on your local site</h2>
-
-                            </div>
-                        </div>
-                        <div data-cy="region-picker" class="region-picker large svelte-fn9rkx">
-                            <a class="website-link svelte-fn9rkx" data-cy="go-to-website"
-                                href="https://about.ikea.com/en/contact/international-sales?ref=gwp-start">
-                                <span class="sr-only">Go to IKEA International Sales</span>
-                                Go to
-                            </a>
-                            <button class="selected svelte-fn9rkx" data-cy="open-region-picker">
-                                <span class="selected-site svelte-fn9rkx">
-                                    <span>
-                                        IKEA International Sales
-                                    </span>
-                                </span>
-                            </button>
-                        </div>
+    <div class="page">
+        <main class="main">
+            <section class="section">
+                <div class="info">
+                    <div class="landing-screen">
+                        <img class="landing_img" alt="Well-organised open wardrobe and clothing rack"
+                            src="images/home/start-screen.jpg">
                     </div>
-                    <div class="dark-image-overlay" style="background: rgba(0,0,0,0.3)"></div>
                 </div>
-            </div>
-            <div class="sub svelte-1e7sfpr"><a class="sub-item dark-image-overlay__holder svelte-1et4exl"
-                    href="https://ikea.today/"><img
-                        alt="Product design sketches on paper and woven rattan material samples"
-                        src="images/home/ikea-today.jpg?"
-                        sizes="(min-width: 1025px) calc((100vw / 3) - 2rem - 1rem - 2rem), 100vw" class="svelte-2xl2ej">
-                    <h2 class="svelte-1et4exl">IKEA Today</h2>
-                    <div class="dark-image-overlay" style="background: linear-gradient(
-          to top,
-          rgba(0,0,0,0.4) 50%,
-          rgba(0,0,0,0) 100%
-        )">
+                <div class="sub">
+                    <div class="sub-item">
+                        <a href="https://ikea.today/">
+                            <img class="item-img"
+                                alt="Product design sketches on paper and woven rattan material samples"
+                                src="images/home/ikea-today.jpg">
+                            <!-- <h2 class="">IKEA Today</h2> -->
+                        </a>
                     </div>
-                </a><a class="sub-item dark-image-overlay__holder svelte-1et4exl" href="https://about.ikea.com/"><img
-                        alt="IKEA coworker talking with a customer"
-                        src="images/home/about-ikea.jpg?"
-                        sizes="(min-width: 1025px) calc((100vw / 3) - 2rem - 1rem - 2rem), 100vw" class="svelte-2xl2ej">
-                    <h2 class="svelte-1et4exl">About IKEA</h2>
-                    <div class="dark-image-overlay" style="background: linear-gradient(
-          to top,
-          rgba(0,0,0,0.4) 50%,
-          rgba(0,0,0,0) 100%
-        )"></div>
-                </a><a class="sub-item dark-image-overlay__holder svelte-1et4exl" href="https://ikeamuseum.com/"><img
-                        alt="Array of different IKEA catalogue covers"
-                        src="images/home/ikea-museum.jpg"
-                        sizes="(min-width: 1025px) calc((100vw / 3) - 2rem - 1rem - 2rem), 100vw" class="svelte-2xl2ej">
-                    <h2 class="svelte-1et4exl">IKEA Museum</h2>
-                    <div class="dark-image-overlay" style="background: linear-gradient(
-          to top,
-          rgba(0,0,0,0.4) 50%,
-          rgba(0,0,0,0) 100%
-        )"></div>
-                </a><a class="sub-item dark-image-overlay__holder svelte-1et4exl" href="https://h22.ikea.com/"><img
-                        alt="Concept drawing of an open market including stalls, seating and trucks"
-                        src="images/home/h22.jpg"
-                        sizes="(min-width: 1025px) calc((100vw / 3) - 2rem - 1rem - 2rem), 100vw" class="svelte-2xl2ej">
-                    <h2 class="svelte-1et4exl">IKEA at H22</h2>
-                    <div class="dark-image-overlay" style="background: linear-gradient(
-          to top,
-          rgba(0,0,0,0.4) 50%,
-          rgba(0,0,0,0) 100%
-        )"></div>
-                </a></div>
-        </section>
+                    <div class="sub-item">
+                        <a href="https://about.ikea.com/">
+                            <img class="item-img" alt="IKEA coworker talking with a customer"
+                                src="images/home/about-ikea.jpg">
+                            <!-- <h2 class="item-title">About IKEA</h2> -->
 
-    </main>
+                        </a>
+                    </div>
+                    <div class="sub-item">
+                        <a href="https://ikeamuseum.com/">
+                            <img class="item-img" alt="Array of different IKEA catalogue covers"
+                                src="images/home/ikea-museum.jpg">
+                            <!-- <h2 class="item-title">IKEA Museum</h2> -->
+
+                        </a>
+                    </div>
+                    <div class="sub-item">
+                        <a href="https://h22.ikea.com/">
+                            <img class="item-img"
+                                alt="Concept drawing of an open market including stalls, seating and trucks"
+                                src="images/home/h22.jpg">
+                            <!-- <h2 class="item-title">IKEA at H22</h2> -->
+                        </a>
+                    </div>
+
+
+
+
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
     @@include('../layouts/footer.html')
 </body>
 
