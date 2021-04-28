@@ -57,7 +57,7 @@ p {
 
 #header {
   padding: 16px;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 5px;
   position: sticky;
   z-index: 2;
   top: 0;
@@ -84,6 +84,7 @@ p {
     color: white;
     opacity: 1;
     background: var(--primary-color);
+    padding: 0px 10px;
     border-radius: 60px;
 
     .nav-link {
@@ -173,53 +174,74 @@ p {
 
 .page {
   position: relative;
-  margin-top: 64px;
-  margin-bottom: 64px;
   overflow: hidden;
   .main {
+    position: relative;
+    padding-left: 32px;
+    padding-right: 32px;
     .section {
-      padding-left: 32px;
-      padding-right: 32px;
-      display: grid;
-      grid-template-columns: 2fr 1rem 1fr;
-      grid-template-rows: minmax(70vh, 1fr);
-      grid-template-areas: "main . sub";
       box-sizing: border-box;
       background: #ffffff;
+      padding-bottom: 3rem;
       .info {
-        position: relative;
-        grid-area: main;
+        max-height: 776px;
+        padding-bottom: 1rem;
+        .landing-screen {
+          display: inline-block;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          .landing_img {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
       }
       .sub {
-        grid-area: sub;
+        .last {
+          margin-bottom: 0 !important;
+          margin-right: 0 !important;
+        }
         .sub-item {
-          position: relative;          
+          position: relative;
+          display: block;
+          height: 178px;
+          overflow: hidden;
+          object-fit: cover;
+          display: flex;
+          align-items: flex-end;
           margin-bottom: 1rem;
-          h2 {
-            display: absolute;
+          flex: 1;
+          img {
+            display: block;
             top: 0;
-            left: 50px;
-            width: 100px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+          h2 {
+            position: absolute;
+            display: block;
             font-size: 1.5em;
-            bottom: 20px;
-            right: 20px;
             margin-block-start: 0.83em;
             margin-block-end: 0.83em;
+            margin-inline-start: 10%;
+            margin-inline-end: 0px;
             font-weight: 700;
             color: #fff;
             z-index: 1;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 50%);
           }
         }
       }
     }
   }
-}
-.landing-screen {
-  float: left;
-  width: 50%;
-}
-img {
-  width: 100%;
 }
 
 footer {
@@ -287,16 +309,14 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-  .what {
-    .landing-screen {
-      position: absolute;
-      opacity: 0.3 !important;
-    }
+  .fa-store {
+    display: none;
   }
-
   .page {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 0px 0px;
+    .main {
+      padding: 0px 0px;
+    }
   }
 
   .pa-button-over-image .et_pb_image_wrap:before {
@@ -316,36 +336,8 @@ footer {
     border-radius: 50px;
     transition: all 0.5s ease;
   }
-  .page.intro {
-    #intro {
-      padding: 0 0;
-
-      .landing-screen {
-        width: 100%;
-      }
-
-      .screen-col {
-        margin-top: 2em;
-
-        &:before {
-          display: none;
-        }
-
-        &:after {
-          display: none;
-        }
-
-        .round-decor {
-          display: none;
-        }
-      }
-    }
-
-    .round {
-      bottom: -300px;
-      padding-top: 25px;
-      width: 200vw;
-    }
+  .landing_img {
+    position: relative;
   }
 
   .list-feature {
