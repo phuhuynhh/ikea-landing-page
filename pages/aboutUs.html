@@ -9,18 +9,53 @@
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/f70a6f4a6e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/css/style.css">
     </head>
     <body>
-        <div class='container'>
-            <div class='header'>
-                <h1>Get to know about us</h1>
+        @@include('../layouts/header.html')
+        <div class="component container"> 
+            
+            <div class="component section-page-header">
+                <div class="component-content">
+                    <h1 class="field-title">About us</h1>
+                    <div class="section-page-header__description">
+                        <p class="field-content">One brand, many companies, and many, many people – that’s us in a nutshell. Spread all over the world, we have a passion for home furnishing and an inspiring shared vision: to create a better everyday life for the many people. This, together with our straightforward business idea, shared values, and a culture based on the spirit of togetherness, guides us in everything we do.</p>
+                    </div>   
+                    <div class="component-content">
+                        <figure>
+                            <div class="fixed-ratio">
+                                <img src="/images/aboutUs/hinh1.jpg">
+                            </div>
+                        </figure>
+                    </div>    
+                </div>
             </div>
-            <div class='infomation'>
-                <!-- <h2>New KLIPPAN sofa cover made from recycled jeans</h2> -->
-                <p>One brand, many companies, and many, many people – that’s us in a nutshell. Spread all over the world, we have a passion for home furnishing and an inspiring shared vision: to create a better everyday life for the many people. This, together with our straightforward business idea, shared values, and a culture based on the spirit of togetherness, guides us in everything we do.</p>
-                <img src="/images/aboutUs/hinh1.jpg" alt="Picture is not exist" style="width: 100%;">
+
+            <div class="component rich-text column-content">
+                <div class="component-content">
+                    <p class="power-message">
+                        To offer a wide range of well-designed, functional home furnishing products at prices so low, that as many people as possible will be able to afford them.
+                    </p>
+                    <p> 
+                        <em>IKEA business idea</em>
+                    </p>
+                </div>
+            </div>
+
+            <div class="component rich-text column-content">
+                <div class="component-content">
+                    <h2>445 IKEA stores worldwide</h2>        
+                </div>
+            </div>
+
+            <div class="component bubbles-on-image title-xs-hide bubble-small">
+                <div class="component-content is-loaded" data-bubbleclr data-expand="-1">
+                    <img src="/images/aboutUs/hinh2.PNG" class="is-loaded ls-inview" alt="World map.">
+                </div>
             </div>
 
         </div>
+
+        @@include('../layouts/footer.html')
     </body>
 </html>
