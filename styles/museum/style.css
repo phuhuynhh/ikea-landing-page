@@ -1,0 +1,42 @@
+
+.snap-start {
+    scroll-snap-align: start;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.col-12{
+    margin-left: 0%;
+}
+
+.ingress>* {
+    font-size: 20px;
+    letter-spacing: -.26px;
+    line-height: 36px;
+}
+
+.call-to-action li a {
+    padding: 0 0 0 1px;
+    font-size: 19px;
+}
+
+.call-to-action {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mb-5{
+    margin-bottom: 40px!important;
+}
+
+#carouselExampleSlidesOnly{
+    margin-bottom: 40px;
+}
