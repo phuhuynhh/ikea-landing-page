@@ -16,7 +16,7 @@ html += '<div class="item-title col-8 item"> </div>';
 html += '<div class="item-price col-4 item"> </div>';
 html += "</div>";
 
-html += '<div class="row detail">';
+html += '<div class="row">';
 html += '<div class="col-12 detail">';
 html += '<div class="row">';
 html += '<div class="col-5">';
