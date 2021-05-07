@@ -1,129 +1,202 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>IKEA Today</title>
-        <meta charset="utf-8">
-        <meta name="robots" content="noindex,follow" />        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="today2.css" type="text/css">
-    </head>
+<html lang="en">
 
-    <body>
+<head>
+    <title>IKEA Today</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/css/style.css" type="text/css">
+    <link rel="stylesheet" href="styles/css/today2.css" type="text/css">
+
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f70a6f4a6e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
     <!--Naviation Menu-->
-        <nav class="navbar-expand-md">
-            <div class="navbar1">
-                <img class="logo" src="today/logo.png" alt=" IKEA LOGO">
-    
-                <div class="navbar_buttons">
-                    <span><img class="open-menu" src="today/menu.svg" alt=""/></span>
-                </div>
+    <nav class="navbar-expand-md">
+        <div class="navbar1">
+            <img class="logo" src="images/today/logo.png" alt=" IKEA LOGO">
+
+            <div class="navbar_buttons">
+                <span><img class="open-menu" src="images/today/menu.svg" alt="" /></span>
             </div>
-    
-            <div class="overlay">
-                <h2 class="nav-title">Categories</h2>
-                <nav class="overlay-menu">
-                    <ul>
-                        <li><a href="#">Colaboration</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">Interview</a></li>
-                        <li><a href="#">Research</a></li>
-                        <li><img class="close-menu" src="today/close.png" alt=""/></li>
-                    </ul>
-                </nav>
-            </div>
-        </nav>
-        
+        </div>
+
+        <div class="overlay">
+            <h2 class="nav-title">Categories</h2>
+            <nav class="overlay-menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/aboutUs.html">About Us</a></li>
+                    <li><a href="/today.html">IKEA Today</a></li>
+                    <li><a href="/museum.html">IKEA Museum</a></li>
+                    <li><img class="close-menu" src="images/today/close.png" alt="" /></li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+
     <!--Naviation Menu end-->
 
-    <!--Main body-->
-        <main role="main">
-            <div class="jumbotron text-center" style="background-image: url(today/jumbotron.jpeg);">
-                <div class="container jumbotron1">
-                    <h1>Bringing home the springtime beauty of India, Jordan and Thailand</h1>
-                    <p>When she was 16-year-old, she started a company of her own, selling handcrafted silver jewellery. The business did quite well but Maria O’Brian had to let it go four years later to focus on her studies as an industrial designer. The passion for creativity had, however, found its way into Maria’s mind and heart. Today, she is one of the key persons behind the soon-to-launch LOKALT collection.</p>
-                    <p><a href="#">Get the full story here</a></p>
-                </div>
+    <!--div body-->
+    <div>
+        <div class="landing-screen">
+            <img class="landing_img" alt="Well-organised open wardrobe and clothing rack"
+                src="images/today/jumbotron.jpeg">
+            <img class="landing_logo" alt="ikea logo" src="images/ikea_logo.svg">
+            <div class="local_site_hint">
+                <span aria-hidden="true" class="arrow">
+                    <svg aria-hidden="true" width="12" height="9" viewBox="0 0 12 9" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" id="svg_info">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.73333L2.6 3.73333L6 4.29138e-07L4.13333 2.65948e-07L3.96317e-07 4.46667L4.13333 9L6.06667 9L2.66667
+                5.26667L12 5.26667L12 3.73333Z" fill="currentColor"></path>
+                    </svg></span>
+            </div>
+        </div>s
+
+        <div class="jumbotron text-center" style="background-image: url(images/today/jumbotron.jpeg); background-repeat: no-repeat;">
+            <div class="container jumbotron1">
+                <h1>Bringing home the springtime beauty of India, Jordan and Thailand</h1>
+                <p>When she was 16-year-old, she started a company of her own, selling handcrafted silver jewellery. The
+                    business did quite well but Maria O’Brian had to let it go four years later to focus on her studies
+                    as an industrial designer. The passion for creativity had, however, found its way into Maria’s mind
+                    and heart. Today, she is one of the key persons behind the soon-to-launch LOKALT collection.</p>
+                <p><a href="#">Get the full story here</a></p>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <article class="col-md-4">
+                    <a href="https://ikea.images/today/bringing-home-the-springtime-beauty-of-india-jordan-and-thailand/"
+                        title="">
+                        <figure class="image-container--square ">
+                            <img width="380" height="233" src="images/today/jumbotron.jpeg" alt="" />
+                        </figure>
+                    </a>
+                    <a href="https://ikea.images/today/bringing-home-the-springtime-beauty-of-india-jordan-and-thailand/"
+                        title="">
+                        <h2 class="entry-title">Bringing home the springtime beauty of India, Jordan and Thailand</h2>
+                    </a>
+                    <a href="https://ikea.images/today/bringing-home-the-springtime-beauty-of-india-jordan-and-thailand/"
+                        title="">
+                        <p class="entry-summary">When she was 16-year-old, she started a company of her own, selling
+                            handcrafted silver jewellery. The business did quite well but Maria O’Brian had to let it go
+                            four years later to focus on her studies as an industrial designer. The passion for
+                            creativity had, however, found its way into Maria’s mind and heart. Today, she is one of the
+                            key persons behind the soon-to-launch LOKALT collection.</p>
+                    </a>
+                </article>
+
+                <article class="col-md-4">
+                    <a href="#" title="">
+                        <figure class="image-container--square">
+                            <img width="380" height="233" src="images/today/jewellery.jpeg" alt="" />
+                        </figure>
+                    </a>
+                    <a href="#" title="">
+                        <h2 class="entry-title">Jewellery for the home</h2>
+                    </a>
+                    <a href="#" title="">
+                        <p class="entry-summary">They both love to surround themselves with things that make them feel
+                            happy, empowered, and comfortable. We talked with Zandra Rhodes and Paulin Machado about
+                            self-expression, creating a home, and how the pleated metal jewellery and fabric Zandra
+                            brought to Sweden resulted in KARISMATISK products.</p>
+                    </a>
+                </article>
+
+                <article class="col-md-4">
+                    <a href="#" title="">
+                        <figure class="image-container--square">
+                            <img width="380" height="233" src="images/today/denim.jpeg" alt="" />
+                        </figure>
+                    </a>
+                    <a href="#" title="">
+                        <h2 class="entry-title">Covering an icon in denim to be more sustainable</h2>
+                    </a>
+                    <a href="#" title="">
+                        <p class="entry-summary">The love for denim will probably never go out of style. Yet from a
+                            sustainability perspective, most jeans produced end up in landfills. That’s why IKEA is now
+                            joining hands with the Dutch denim brand MUD Jeans, creating a limited-edition KLIPPAN sofa
+                            cover using an innovative method that gives new life to both sofas and worn-out jeans.</p>
+                    </a>
+                </article>
             </div>
 
+            <div class="row">
+                <article class="col-md-4">
+                    <a href="#" title="">
+                        <figure class="image-container--square">
+                            <img width="380" height="233" src="images/today/rainbow.jpeg" alt="" />
+                        </figure>
+                    </a>
+                    <a href="#" title="">
+                        <h2 class="entry-title">Rising like a rainbow</h2>
+                    </a>
+                    <a href="#" title="">
+                        <p class="entry-summary">A few colours, music and a bit of heart can help us connect with others
+                            in more ways than we can imagine. IKEA co-worker Shin Suzuki did precisely that. He put his
+                            heart into creating a combination of rainbow colours and ENEBY speakers to show support for
+                            the LGBTQ+ community. What he created in 2019 will soon be available in IKEA stores for
+                            customers to take home and take pride in who we are</p>
+                    </a>
+                </article>
 
-            <div class="container">
-                <div class="row">
-                    <article class="col-md-4">
-                        <a href="https://ikea.today/bringing-home-the-springtime-beauty-of-india-jordan-and-thailand/" title="">
-                            <figure class="image-container--square ">
-                                <img width="380" height="233" src="today/jumbotron.jpeg" alt="" />  
-                            </figure>
-                        </a>
-                        <a href="https://ikea.today/bringing-home-the-springtime-beauty-of-india-jordan-and-thailand/" title=""><h2 class="entry-title">Bringing home the springtime beauty of India, Jordan and Thailand</h2></a>
-                        <a href="https://ikea.today/bringing-home-the-springtime-beauty-of-india-jordan-and-thailand/" title=""><p class="entry-summary">When she was 16-year-old, she started a company of her own, selling handcrafted silver jewellery. The business did quite well but Maria O’Brian had to let it go four years later to focus on her studies as an industrial designer. The passion for creativity had, however, found its way into Maria’s mind and heart. Today, she is one of the key persons behind the soon-to-launch LOKALT collection.</p></a>
-                    </article>
+                <article class="col-md-4">
+                    <a href="#" title="">
+                        <figure class="image-container--square">
+                            <img width="380" height="233" src="images/today/linus.jpeg" alt="" />
+                        </figure>
+                    </a>
+                    <a href="#" title="">
+                        <h2 class="entry-title">Linus on creativity and the importance of being an underdog</h2>
+                    </a>
+                    <a href="#" title="">
+                        <p class="entry-summary">An ad stating, “The brain wants to have fun”, has influenced Linus
+                            Karlsson in more ways than he could foresee when he saw the ad some 30 years ago. We talked
+                            to Linus about his new role as Chief Creative Officer for IKEA, about athletes being super
+                            creatives and his secret goal for creativity.</p>
+                    </a>
+                </article>
 
-                    <article class="col-md-4">
-                        <a href="#" title="">
-                            <figure class="image-container--square">
-                                <img width="380" height="233" src="today/jewellery.jpeg" alt="" />  
-                            </figure>
-                        </a>
-                        <a href="#" title=""><h2 class="entry-title">Jewellery for the home</h2></a>
-                        <a href="#" title=""><p class="entry-summary">They both love to surround themselves with things that make them feel happy, empowered, and comfortable. We talked with Zandra Rhodes and Paulin Machado about self-expression, creating a home, and how the pleated metal jewellery and fabric Zandra brought to Sweden resulted in KARISMATISK products.</p></a>
-                    </article>
+                <article class="col-md-4">
+                    <a href="#" title="">
+                        <figure class="image-container--square">
+                            <img width="380" height="233" src="images/today/Prototyping_1-415x233.jpeg" alt="" />
+                        </figure>
+                    </a>
+                    <a href="#" title="">
+                        <h2 class="entry-title">A furniture range for the people, by the people</h2>
+                    </a>
+                    <a href="#" title="">
+                        <p class="entry-summary">If your home can be the way you want it, why not your office too? At
+                            least that’s how Emma believes offices in the future will be like. We talked to her about
+                            the future IKEA office range, inspirations from customers and finding a good balance between
+                            design and functionality.</p>
+                    </a>
+                </article>
 
-                    <article class="col-md-4">
-                        <a href="#" title="">
-                            <figure class="image-container--square">
-                                <img width="380" height="233" src="today/denim.jpeg" alt="" />  
-                            </figure>
-                        </a>
-                        <a href="#" title=""><h2 class="entry-title">Covering an icon in denim to be more sustainable</h2></a>
-                        <a href="#" title=""><p class="entry-summary">The love for denim will probably never go out of style. Yet from a sustainability perspective, most jeans produced end up in landfills. That’s why IKEA is now joining hands with the Dutch denim brand MUD Jeans, creating a limited-edition KLIPPAN sofa cover using an innovative method that gives new life to both sofas and worn-out jeans.</p></a>
-                    </article>
-                </div>
-        
-                <div class="row">
-                    <article class="col-md-4">
-                        <a href="#" title="">
-                            <figure class="image-container--square">
-                                <img width="380" height="233" src="today/rainbow.jpeg" alt="" />  
-                            </figure>
-                        </a>
-                        <a href="#" title=""><h2 class="entry-title">Rising like a rainbow</h2></a>
-                        <a href="#" title=""><p class="entry-summary">A few colours, music and a bit of heart can help us connect with others in more ways than we can imagine. IKEA co-worker Shin Suzuki did precisely that. He put his heart into creating a combination of rainbow colours and ENEBY speakers to show support for the LGBTQ+ community. What he created in 2019 will soon be available in IKEA stores for customers to take home and take pride in who we are</p></a>
-                    </article>
-
-                    <article class="col-md-4">
-                        <a href="#" title="">
-                            <figure class="image-container--square">
-                                <img width="380" height="233" src="today/linus.jpeg" alt="" />  
-                            </figure>
-                        </a>
-                        <a href="#" title=""><h2 class="entry-title">Linus on creativity and the importance of being an underdog</h2></a>
-                        <a href="#" title=""><p class="entry-summary">An ad stating, “The brain wants to have fun”, has influenced Linus Karlsson in more ways than he could foresee when he saw the ad some 30 years ago. We talked to Linus about his new role as Chief Creative Officer for IKEA, about athletes being super creatives and his secret goal for creativity.</p></a>
-                    </article>
-
-                    <article class="col-md-4">
-                        <a href="#" title="">
-                            <figure class="image-container--square">
-                                <img width="380" height="233" src="today/Prototyping_1-415x233.jpeg" alt="" />  
-                            </figure>
-                        </a>
-                        <a href="#" title=""><h2 class="entry-title">A furniture range for the people, by the people</h2></a>
-                        <a href="#" title=""><p class="entry-summary">If your home can be the way you want it, why not your office too? At least that’s how Emma believes offices in the future will be like. We talked to her about the future IKEA office range, inspirations from customers and finding a good balance between design and functionality.</p></a>
-                    </article>
-                    
-                </div>
             </div>
+        </div>
 
-        </main>
-
-        <footer class="container">
-            <p>&copy;IKEA 2020-2021</p>
-        </footer>
-
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="app.js" charset="utf-8"></script>
+    </div>
+    @@include('../layouts/footer.html')
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 
 
-    </body>
+</body>
+
 </html>

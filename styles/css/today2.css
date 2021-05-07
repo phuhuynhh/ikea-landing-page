@@ -5,17 +5,7 @@
 * {
     box-sizing: border-box;
   }
-  
-  html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background: url('images/bg-final.jpg') no-repeat;
-    background-position: 50% 10%;
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
+
   
   /*
   ---- Navbar
@@ -189,8 +179,8 @@
       height: 100%;
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
       -webkit-box-align: center;
+      display: flex;
       -ms-flex-align: center;
       align-items: center;
       -webkit-box-pack: center;
@@ -202,10 +192,17 @@
       opacity: 0;
 
   }
+  .jumbotron{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: auto;
+  }
   .jumbotron1{
-      background-color: rgba(179, 212, 252,0.2);
+      background-color: rgba(179, 212, 252,0.5);
       color: #fff;;
       text-shadow:none;
+      background-repeat: no-repeat;
    }
    .entry-title{
     font-size:22px;
@@ -228,12 +225,17 @@
         color: black;
    }
    .image-container{
-       position:relative;
-       display:block}
+      position:relative;
+      display:block;
+      padding:10px}
    .image-container:before{
        display:block;content:"";
        width:100%;
-       padding-top:56.25%}
+       padding-top:56.25%
+      }
+   }
+  }
+}
 
     
 
@@ -251,8 +253,6 @@
         font-size: 5vw
     }
   }
-
-
 
   @media (max-width: 550px) {
     .overlay nav {
