@@ -37,6 +37,24 @@ h1 {
     margin-bottom: 40px!important;
 }
 
-#carouselExampleSlidesOnly{
-    margin-bottom: 40px;
+#slide-show div {
+    max-height: 550px;
+    margin: 0 auto; }
+
+#slide-show div img {
+    width: 100%; 
 }
+
+.wp-caption-text {
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.caption-text {
+    font-size: 90%;
+    color: #6c757d;
+}
+    
