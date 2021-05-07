@@ -1,0 +1,110 @@
+[
+    {
+        "image": "images/shop/items/im-shop-product-1.jpg",
+        "title":"IKEA Tray",
+        "price": "17,9 $",
+        "material": "Glue-laminated beech, melamine surface",
+        "design":"Sissi Edholm / Lisa Ullenius"        
+    },
+    {
+        "image": "images/shop/items/im-shop-product-2.jpg",
+        "title":"IKEA Tray",
+        "price": "11,9 $",
+        "material": "Glue-laminated beech, melamine surface",
+        "design":"Sissi Edholm / Lisa Ullenius" 
+    },
+    {
+        "image": "images/shop/items/im-shop-product-3.jpg",
+        "title":"IKEA PS Clock",
+        "price": "22,9 $",
+        "material": "Coated metal",
+        "design":"Thomas Eriksson" 
+        },
+    {
+        "image": "images/shop/items/im-shop-product-4.jpg",
+        "title":"IKEA ART Rabbit",
+        "price": "29,9 $",
+        "material": "Glass",
+        "design":"Joe Ledbetter" 
+    },
+    {
+        "image": "images/shop/items/im-shop-product-5.jpg",
+        "title":"IKEA ART Owl",
+        "price": "29,9 $",
+        "material": "Glass",
+        "diameter": "43 cm",
+        "design":"Nathan Jurevicius" 
+    },
+    {
+        "image": "images/shop/items/im-shop-product-6.jpg",
+        "title":"IKEA Tray",
+        "price": "19,9 $",
+        "material": "Glue-laminated beech, melamine surface",
+        "diameter": "45 cm",
+        "design":"Sissi Edholm / Lisa Ullenius" 
+    },{
+        "image": "images/shop/items/im-shop-product-5.jpg",
+        "title":"IKEA ART Owl",
+        "price": "29,9 $",
+        "material": "Glass",
+        "diameter": "43 cm",
+        "design":"Nathan Jurevicius" 
+    },
+    {
+        "image": "images/shop/items/im-shop-product-5.jpg",
+        "title":"IKEA ART Owl",
+        "price": "29,9 $",
+        "material": "Glass",
+        "diameter": "43 cm",
+        "design":"Nathan Jurevicius" 
+    },
+    {
+        "image": "images/shop/items/im-shop-product-5.jpg",
+        "title":"IKEA ART Owl",
+        "price": "29,9 $",
+        "material": "Glass",
+        "diameter": "43 cm",
+        "design":"Nathan Jurevicius" 
+    },
+    {
+        "image": "images/shop/items/im-shop-product-5.jpg",
+        "title":"IKEA ART Owl",
+        "price": "29,9 $",
+        "material": "Glass",
+        "diameter": "43 cm",
+        "design":"Nathan Jurevicius" 
+    },
+    {
+        "image": "images/shop/items/im-shop-product-5.jpg",
+        "title":"IKEA ART Owl",
+        "price": "29,9 $",
+        "material": "Glass",
+        "diameter": "43 cm",
+        "design":"Nathan Jurevicius" 
+    },
+    {
+        "image": "images/shop/items/im-shop-product-5.jpg",
+        "title":"IKEA ART Owl",
+        "price": "29,9 $",
+        "material": "Glass",
+        "diameter": "43 cm",
+        "design":"Nathan Jurevicius" 
+    },
+    {
+        "image": "images/shop/items/im-shop-product-5.jpg",
+        "title":"IKEA ART Owl",
+        "price": "29,9 $",
+        "material": "Glass",
+        "diameter": "43 cm",
+        "design":"Nathan Jurevicius" 
+    }
+    ,{
+        "image": "images/shop/items/im-shop-product-5.jpg",
+        "title":"IKEA ART Owl",
+        "price": "29,9 $",
+        "material": "Glass",
+        "diameter": "43 cm",
+        "design":"Nathan Jurevicius" 
+    }
+
+]

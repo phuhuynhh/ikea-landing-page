@@ -42,31 +42,41 @@
                     <div class="landing-screen">
                         <img class="landing_img" alt="Well-organised open wardrobe and clothing rack"
                             src="images/home/start-screen.jpg">
+                        <img class="landing_logo" alt="ikea logo" src="images/ikea_logo.svg">
+                        <div class="local_site_hint">
+                            <h2 class="hint_title ">Go shopping on your local site</h2>
+                            <span aria-hidden="true" class="arrow">
+                                <svg aria-hidden="true" width="12" height="9" viewBox="0 0 12 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" id="svg_info">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.73333L2.6 3.73333L6 4.29138e-07L4.13333 2.65948e-07L3.96317e-07 4.46667L4.13333 9L6.06667 9L2.66667
+                            5.26667L12 5.26667L12 3.73333Z" fill="currentColor"></path>
+                                </svg></span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 sub">
                     <a class="sub-item" href="/today.html">
-                        <img class="item-img" alt="Product design sketches on paper and woven rattan material samples"
+                        <img class="inside item-img" alt="Product design sketches on paper and woven rattan material samples"
                             src="images/home/ikea-today.jpg">
-                        <h2 class="">IKEA Today</h2>
+                        <h2 class="inside item-title">IKEA Today</h2>
                     </a>
                     <a class="sub-item" href="/aboutUs.html">
-                        <img class="item-img" alt="IKEA coworker talking with a customer"
+                        <img class="inside item-img" alt="IKEA coworker talking with a customer"
                             src="images/home/about-ikea.jpg">
-                        <h2 class="item-title">About IKEA</h2>
+                        <h2 class="inside item-title">About IKEA</h2>
 
                     </a>
                     <a class="sub-item" href="/museum.html">
-                        <img class="item-img" alt="Array of different IKEA catalogue covers"
+                        <img class="inside  item-img" alt="Array of different IKEA catalogue covers"
                             src="images/home/ikea-museum.jpg">
-                        <h2 class="item-title">IKEA Museum</h2>
+                        <h2 class="inside item-title">IKEA Museum</h2>
 
                     </a>
-                    <a class="sub-item" href="https://h22.ikea.com/">
-                        <img class="item-img"
+                    <a class="sub-item" href="/shop.html">
+                        <img class="inside item-img"
                             alt="Concept drawing of an open market including stalls, seating and trucks"
-                            src="images/home/h22.jpg">
-                        <h2 class="item-title">IKEA at H22</h2>
+                            src="images/home/catalog.jpg">
+                        <h2 class="inside  item-title">Shopping</h2>
                     </a>
 
 
@@ -76,12 +86,14 @@
 
             </section>
 
-            <section class="footer">
-                <img src="images/footer-daylight.svg" class="footer-room__image"
-                    alt="Illustration of a room with IKEA products: chairs, tables, storage units, lighting and wall art">
-            </section>
+            
 
         </main>
+
+        <div class="footer">
+            <img src="images/footer-daylight.svg" class="footer_image"
+                alt="Illustration of a room with IKEA products: chairs, tables, storage units, lighting and wall art">
+        </div>
     </div>
 
     @@include('../layouts/footer.html')
